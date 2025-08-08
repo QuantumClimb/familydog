@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-400">
+      <section className="relative min-h-screen bg-gradient-to-br from-blue-600 via-blue-500 to-cyan-400 hero-section">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
           <div className="min-h-[80vh] flex items-center">
             <div className="grid lg:grid-cols-2 gap-12 items-center w-full">
@@ -26,13 +26,6 @@ export default function Home() {
                 <div className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold text-cyan-100 mb-6">
                   in Mont Kiara & Kota Kemuning
                 </div>
-                <div className="flex justify-center lg:justify-end scroll-fade-right">
-                <img 
-                  src="/images/trainer.png" 
-                  alt="Richard Gardner - Professional Dog Trainer with German Shepherd" 
-                  className="w-full max-w-[300px] sm:max-w-md h-auto object-contain"
-                />
-              </div>
                 
                 <p className="text-sm text-white/80 mb-8">
                   (NOTE: Dates sometimes subject to change due to venue availability)
@@ -54,7 +47,14 @@ export default function Home() {
                 </div>
               </div>
 
-           
+              {/* Right Image - No Background */}
+              <div className="flex justify-center lg:justify-end scroll-fade-right">
+                <img 
+                  src="/images/trainer.png" 
+                  alt="Richard Gardner - Professional Dog Trainer with German Shepherd" 
+                  className="w-full max-w-[300px] sm:max-w-md h-auto object-contain"
+                />
+              </div>
             </div>
           </div>
         </div>

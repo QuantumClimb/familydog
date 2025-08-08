@@ -598,3 +598,10 @@
   opacity: 1;
   transform: translateX(0);
 }
+
+/* Fallback for hero content - ensure it's visible by default */
+.hero-section .scroll-fade-left,
+.hero-section .scroll-fade-right {
+  opacity: 1;
+  transform: translateX(0);
+}
